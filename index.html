@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoShop - Sustainable Living</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" id="logo">
+                <img src="images/logo.png" alt="EcoShop Logo">
+                <h1>EcoShop</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html" id="cart-icon">Cart <span id="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Live Sustainably, Shop Responsibly</h2>
+            <p>Discover eco-friendly products for a greener lifestyle.</p>
+            <a href="products.html" class="btn">Shop Now</a>
+        </section>
+
+        <section id="featured-products" class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-grid" id="featured-product-grid">
+                <!-- Featured products will be loaded here by JavaScript -->
+            </div>
+            <div class="text-center mt-2">
+                <a href="products.html" class="btn btn-secondary">View All Products</a>
+            </div>
+        </section>
+
+        <section class="content-page container" id="why-choose-us">
+            <h2 class="section-title">Why Choose EcoShop?</h2>
+            <div style="display: flex; gap: 20px; text-align: center; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 250px;">
+                    <img src="images/Eco-Friendly-Icon.png" alt="Eco-Friendly Icon" style="border-radius: 50%; margin-bottom: 10px; max-width: 100%;">
+                    <h3>Eco-Friendly Materials</h3>
+                    <p>We prioritize products made from sustainable, recycled, or biodegradable materials.</p>
+                </div>
+                <div style="flex: 1; min-width: 250px;">
+                    <img src="images/ethical-sourced.png" alt="Ethical Sourcing Icon" style="border-radius: 50%; margin-bottom: 10px; max-width: 100%;">
+                    <h3>Ethically Sourced</h3>
+                    <p>Our products are sourced from suppliers who adhere to fair labor and ethical practices.</p>
+                </div>
+                <div style="flex: 1; min-width: 250px;">
+                    <img src="images/planet-friendly-icon.png" alt="Planet Friendly Icon" style="border-radius: 50%; margin-bottom: 10px; max-width: 100%;">
+                    <h3>Planet Conscious</h3>
+                    <p>Join us in reducing waste and making a positive impact on the environment.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 EcoShop. Nurturing a Greener Tomorrow.</p>
+        </div>
+    </footer>
+
+    <script src="js/products_data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
